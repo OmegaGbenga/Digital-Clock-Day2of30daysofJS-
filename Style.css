@@ -1,0 +1,30 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(to right, purple, green);
+}
+
+.clock-wrapper{
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    font-size: 60px;
+    color: royalblue;
+}
+
+
+
